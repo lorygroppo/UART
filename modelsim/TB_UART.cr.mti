@@ -1,0 +1,210 @@
+C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/lpm_counter_RX_MOD_16.vhd {1 {vcom -work work -2002 -explicit C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/lpm_counter_RX_MOD_16.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity lpm_counter_RX_MOD_16
+-- Compiling architecture SYN of lpm_counter_rx_mod_16
+
+} {} {}} C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/AND_clk_div.vhd {1 {vcom -work work -2002 -explicit C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/AND_clk_div.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity AND_clk_div
+-- Compiling architecture behavioural of AND_clk_div
+
+} {} {}} C:/Users/valer/Desktop/PROGETTO_UART/quartus/UART/TB_TX_UART.vhd {2 {vcom -work work -2002 -explicit C:/Users/valer/Desktop/PROGETTO_UART/quartus/UART/TB_TX_UART.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity TB_UART
+-- Compiling architecture structural of TB_UART
+** Warning: [4] C:/Users/valer/Desktop/PROGETTO_UART/quartus/UART/TB_TX_UART.vhd(43): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: [4] C:/Users/valer/Desktop/PROGETTO_UART/quartus/UART/TB_TX_UART.vhd(45): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: [4] C:/Users/valer/Desktop/PROGETTO_UART/quartus/UART/TB_TX_UART.vhd(49): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}} C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/lpm_shiftreg0.vhd {1 {vcom -work work -2002 -explicit C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/lpm_shiftreg0.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity lpm_shiftreg0
+-- Compiling architecture SYN of lpm_shiftreg0
+
+} {} {}} C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/lpm_shiftreg_RX_RIGHT_8_BIT.vhd {1 {vcom -work work -2002 -explicit C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/lpm_shiftreg_RX_RIGHT_8_BIT.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity lpm_shiftreg_RX_RIGHT_8_BIT
+-- Compiling architecture SYN of lpm_shiftreg_rx_right_8_bit
+
+} {} {}} C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/FSM_RX.vhd {1 {vcom -work work -2002 -explicit C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/FSM_RX.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity FSM_RX
+-- Compiling architecture Behavioural of FSM_RX
+
+} {} {}} C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/AND_Decisore.vhd {1 {vcom -work work -2002 -explicit C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/AND_Decisore.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity AND_Decisore
+-- Compiling architecture behavioural of AND_Decisore
+
+} {} {}} C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/RX.vhd {1 {vcom -work work -2002 -explicit C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/RX.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity RX
+-- Compiling architecture bdf_type of RX
+
+} {} {}} C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/lpm_shiftreg_RX_LEFT_EDGE.vhd {1 {vcom -work work -2002 -explicit C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/lpm_shiftreg_RX_LEFT_EDGE.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity lpm_shiftreg_RX_LEFT_EDGE
+-- Compiling architecture SYN of lpm_shiftreg_rx_left_edge
+
+} {} {}} C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/FSM_TX.vhd {1 {vcom -work work -2002 -explicit C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/FSM_TX.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity FSM_TX
+-- Compiling architecture Behavioural of FSM_TX
+
+} {} {}} C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/lpm_counter_TX.vhd {1 {vcom -work work -2002 -explicit C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/lpm_counter_TX.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity lpm_counter_TX
+-- Compiling architecture SYN of lpm_counter_tx
+
+} {} {}} C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/Decisore.vhd {1 {vcom -work work -2002 -explicit C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/Decisore.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity Decisore
+-- Compiling architecture behavioural of Decisore
+
+} {} {}} C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/TX.vhd {1 {vcom -work work -2002 -explicit C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/TX.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity TX
+-- Compiling architecture bdf_type of TX
+
+} {} {}} C:/Users/valer/Desktop/PROGETTO_UART/quartus/UART/UART.vhd {1 {vcom -work work -2002 -explicit C:/Users/valer/Desktop/PROGETTO_UART/quartus/UART/UART.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity UART
+-- Compiling architecture bdf_type of UART
+
+} {} {}} C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/invert.vhd {1 {vcom -work work -2002 -explicit C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/invert.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity invert
+-- Compiling architecture behavioural of invert
+
+} {} {}} C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/AND_Edge_Detector.vhd {1 {vcom -work work -2002 -explicit C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/AND_Edge_Detector.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity AND_Edge_Detector
+-- Compiling architecture behavioural of AND_Edge_Detector
+
+} {} {}} C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/and_gate_4.vhd {1 {vcom -work work -2002 -explicit C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/and_gate_4.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity AND_GATE_4
+-- Compiling architecture behavioural of AND_GATE_4
+
+} {} {}} C:/Users/valer/Desktop/PROGETTO_UART/quartus/UART/altpll0.vhd {1 {vcom -work work -2002 -explicit C:/Users/valer/Desktop/PROGETTO_UART/quartus/UART/altpll0.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity altpll0
+-- Compiling architecture SYN of altpll0
+
+} {} {}} C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/lpm_counter_RX_MOD_32.vhd {1 {vcom -work work -2002 -explicit C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/lpm_counter_RX_MOD_32.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity lpm_counter_RX_MOD_32
+-- Compiling architecture SYN of lpm_counter_rx_mod_32
+
+} {} {}} C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/and_gate_8.vhd {1 {vcom -work work -2002 -explicit C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/and_gate_8.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity AND_GATE_8
+-- Compiling architecture behavioural of AND_GATE_8
+
+} {} {}} C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/lpm_counter_TX_MOD_10.vhd {1 {vcom -work work -2002 -explicit C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/lpm_counter_TX_MOD_10.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity lpm_counter_TX_MOD_10
+-- Compiling architecture SYN of lpm_counter_tx_mod_10
+
+} {} {}} C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/lpm_mux0.vhd {1 {vcom -work work -2002 -explicit C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/lpm_mux0.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package LPM_COMPONENTS
+-- Compiling entity lpm_mux0
+-- Compiling architecture SYN of lpm_mux0
+
+} {} {}} C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/lpm_ff_0.vhd {1 {vcom -work work -2002 -explicit C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/lpm_ff_0.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package LPM_COMPONENTS
+-- Compiling entity lpm_ff_0
+-- Compiling architecture bdf_type of lpm_ff_0
+
+} {} {}}

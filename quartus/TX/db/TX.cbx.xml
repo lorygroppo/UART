@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="TX">
+		<CBX_INST_ENTRY INSTANCE_NAME="|TX|lpm_counter_TX:CNT_TX_MOD_217|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_7oi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TX|lpm_counter_TX_MOD_10:CNT_TX_MOD_10|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_3oi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|TX|lpm_mux0:MUX_2_TO_1|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_03e.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

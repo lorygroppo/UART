@@ -1,0 +1,141 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2011 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 312 208)
+	(text "FSM_RX" (rect 5 0 47 12)(font "Arial" ))
+	(text "inst" (rect 8 176 36 188)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "RD" (rect 0 0 14 12)(font "Arial" ))
+		(text "RD" (rect 21 27 35 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "TC_CNT_MOD_27" (rect 0 0 92 12)(font "Arial" ))
+		(text "TC_CNT_MOD_27" (rect 21 43 113 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 1))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "TC_CNT_MOD_8_EDGE" (rect 0 0 120 12)(font "Arial" ))
+		(text "TC_CNT_MOD_8_EDGE" (rect 21 59 141 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 1))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "TC_CNT_MOD_8_BIT" (rect 0 0 113 12)(font "Arial" ))
+		(text "TC_CNT_MOD_8_BIT" (rect 21 75 134 87)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80)(line_width 1))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "START" (rect 0 0 35 12)(font "Arial" ))
+		(text "START" (rect 21 91 56 103)(font "Arial" ))
+		(line (pt 0 96)(pt 16 96)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "CK" (rect 0 0 14 12)(font "Arial" ))
+		(text "CK" (rect 21 107 35 119)(font "Arial" ))
+		(line (pt 0 112)(pt 16 112)(line_width 1))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "RESETn" (rect 0 0 42 12)(font "Arial" ))
+		(text "RESETn" (rect 21 123 63 135)(font "Arial" ))
+		(line (pt 0 128)(pt 16 128)(line_width 1))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "STOP_BIT" (rect 0 0 56 12)(font "Arial" ))
+		(text "STOP_BIT" (rect 21 139 77 151)(font "Arial" ))
+		(line (pt 0 144)(pt 16 144)(line_width 1))
+	)
+	(port
+		(pt 296 32)
+		(output)
+		(text "DAV" (rect 0 0 21 12)(font "Arial" ))
+		(text "DAV" (rect 254 27 275 39)(font "Arial" ))
+		(line (pt 296 32)(pt 280 32)(line_width 1))
+	)
+	(port
+		(pt 296 48)
+		(output)
+		(text "SHIFT_LEFT_EDGE" (rect 0 0 106 12)(font "Arial" ))
+		(text "SHIFT_LEFT_EDGE" (rect 169 43 275 55)(font "Arial" ))
+		(line (pt 296 48)(pt 280 48)(line_width 1))
+	)
+	(port
+		(pt 296 64)
+		(output)
+		(text "SHIFT_RX_DECISOR" (rect 0 0 113 12)(font "Arial" ))
+		(text "SHIFT_RX_DECISOR" (rect 162 59 275 71)(font "Arial" ))
+		(line (pt 296 64)(pt 280 64)(line_width 1))
+	)
+	(port
+		(pt 296 80)
+		(output)
+		(text "SHIFT_DOUT" (rect 0 0 70 12)(font "Arial" ))
+		(text "SHIFT_DOUT" (rect 205 75 275 87)(font "Arial" ))
+		(line (pt 296 80)(pt 280 80)(line_width 1))
+	)
+	(port
+		(pt 296 96)
+		(output)
+		(text "CNT_EN_MOD_27" (rect 0 0 92 12)(font "Arial" ))
+		(text "CNT_EN_MOD_27" (rect 183 91 275 103)(font "Arial" ))
+		(line (pt 296 96)(pt 280 96)(line_width 1))
+	)
+	(port
+		(pt 296 112)
+		(output)
+		(text "CNT_EN_MOD_8_EDGE" (rect 0 0 120 12)(font "Arial" ))
+		(text "CNT_EN_MOD_8_EDGE" (rect 155 107 275 119)(font "Arial" ))
+		(line (pt 296 112)(pt 280 112)(line_width 1))
+	)
+	(port
+		(pt 296 128)
+		(output)
+		(text "CNT_ED_MOD_8_BIT" (rect 0 0 113 12)(font "Arial" ))
+		(text "CNT_ED_MOD_8_BIT" (rect 162 123 275 135)(font "Arial" ))
+		(line (pt 296 128)(pt 280 128)(line_width 1))
+	)
+	(port
+		(pt 296 144)
+		(output)
+		(text "CLEAR" (rect 0 0 35 12)(font "Arial" ))
+		(text "CLEAR" (rect 240 139 275 151)(font "Arial" ))
+		(line (pt 296 144)(pt 280 144)(line_width 1))
+	)
+	(drawing
+		(rectangle (rect 16 16 280 176)(line_width 1))
+	)
+)

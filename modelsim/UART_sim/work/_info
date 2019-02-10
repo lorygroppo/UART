@@ -1,0 +1,878 @@
+m255
+K3
+13
+cModel Technology
+dC:\Users\Lorenzo\Desktop\TX_sim
+Ealtpll0
+Z0 w1544371354
+Z1 DPx3 std 6 textio 0 22 G^o2zK;Vh4eVdKTVo98653
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dC:\Users\Lorenzo\Desktop\UART_sim
+Z4 8D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/UART/altpll0.vhd
+Z5 FD:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/UART/altpll0.vhd
+l0
+L42
+Vfi_oE;H54ijV8znoT74lV1
+Z6 OV;C;10.0c;49
+32
+Z7 !s108 1544378155.640000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/UART/altpll0.vhd|
+Z9 !s107 D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/UART/altpll0.vhd|
+Z10 o-work work -2002 -explicit -O0
+Z11 tExplicit 1
+!s100 c;^AVB37YG>LhfkT:;4W81
+Asyn
+R1
+R2
+DEx4 work 7 altpll0 0 22 fi_oE;H54ijV8znoT74lV1
+l121
+L51
+V6Mma9@BA[hQ@FhWJDJUd<2
+R6
+32
+R7
+R8
+R9
+R10
+R11
+!s100 I:Vm?L8_o[m81HY2;WAB83
+Eand_clk_div
+Z12 w1544371352
+Z13 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z14 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+R1
+R2
+R3
+Z15 8D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/AND_clk_div.vhd
+Z16 FD:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/AND_clk_div.vhd
+l0
+L6
+VG[?1PQ9R7cCzoEXG=F0o`0
+R6
+32
+Z17 !s108 1544378154.047000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/AND_clk_div.vhd|
+Z19 !s107 D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/AND_clk_div.vhd|
+R10
+R11
+!s100 Q2;HFMXENGd:UHHeVb0B=2
+Abehavioural
+R13
+R14
+R1
+R2
+DEx4 work 11 and_clk_div 0 22 G[?1PQ9R7cCzoEXG=F0o`0
+l14
+L13
+V_]3nmVLQnYdbhS_SU9=6W3
+R6
+32
+R17
+R18
+R19
+R10
+R11
+!s100 J58[QgSA>O;H838ke1^Ec1
+Eand_decisore
+R12
+R13
+R14
+R1
+R2
+R3
+Z20 8D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/AND_Decisore.vhd
+Z21 FD:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/AND_Decisore.vhd
+l0
+L6
+VTA9mi>ae`e[?4]0iRdbhg2
+R6
+32
+Z22 !s108 1544378154.115000
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/AND_Decisore.vhd|
+Z24 !s107 D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/AND_Decisore.vhd|
+R10
+R11
+!s100 Gh`lPQLWSGhz:dD=o70A80
+Abehavioural
+R13
+R14
+R1
+R2
+DEx4 work 12 and_decisore 0 22 TA9mi>ae`e[?4]0iRdbhg2
+l14
+L13
+VNWaDaPnSlaz9bW9FKV88a3
+R6
+32
+R22
+R23
+R24
+R10
+R11
+!s100 IUWV7_nCJ0d1bGhS3Pf>D1
+Eand_edge_detector
+R12
+R13
+R14
+R1
+R2
+R3
+Z25 8D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/AND_Edge_Detector.vhd
+Z26 FD:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/AND_Edge_Detector.vhd
+l0
+L6
+VYb<_]WYZ?lb^JIRFll`zV2
+R6
+32
+Z27 !s108 1544378154.190000
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/AND_Edge_Detector.vhd|
+Z29 !s107 D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/AND_Edge_Detector.vhd|
+R10
+R11
+!s100 AO]b6kX:ShDP6K49;>lDZ3
+Abehavioural
+R13
+R14
+R1
+R2
+DEx4 work 17 and_edge_detector 0 22 Yb<_]WYZ?lb^JIRFll`zV2
+l14
+L13
+VA=4VFz=jHJi[QZYdbmPeR0
+R6
+32
+R27
+R28
+R29
+R10
+R11
+!s100 >GIdT>_DB_:]RA];XGRBL3
+Eand_gate_4
+Z30 w1544371353
+R13
+Z31 DPx4 ieee 16 std_logic_signed 0 22 E>OLoMaBGQ?hbGgOoNXM^1
+R1
+R2
+R3
+Z32 8D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/TX/and_gate_4.vhd
+Z33 FD:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/TX/and_gate_4.vhd
+l0
+L5
+VEehSgZAlQZI@Q6cSL6[j>2
+R6
+32
+Z34 !s108 1544378154.962000
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/TX/and_gate_4.vhd|
+Z36 !s107 D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/TX/and_gate_4.vhd|
+R10
+R11
+!s100 8Be>2c@?j80__7MB=KCL90
+Abehavioural
+R13
+R31
+R1
+R2
+DEx4 work 10 and_gate_4 0 22 EehSgZAlQZI@Q6cSL6[j>2
+l16
+L15
+VkB01fC4LNgYHmZjh[^mP11
+R6
+32
+R34
+R35
+R36
+R10
+R11
+!s100 5P>>>1;47c7jNEG2c^Qf10
+Eand_gate_8
+R30
+R13
+R31
+R1
+R2
+R3
+Z37 8D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/TX/and_gate_8.vhd
+Z38 FD:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/TX/and_gate_8.vhd
+l0
+L5
+VZk=LB<RdRWY4@I84m7G[X1
+R6
+32
+Z39 !s108 1544378155.040000
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/TX/and_gate_8.vhd|
+Z41 !s107 D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/TX/and_gate_8.vhd|
+R10
+R11
+!s100 2DmY^Vm`IiSB:o[0L=;1;0
+Abehavioural
+R13
+R31
+R1
+R2
+DEx4 work 10 and_gate_8 0 22 Zk=LB<RdRWY4@I84m7G[X1
+l16
+L15
+Voj=KUNVi_Co2PL;FSEIUi1
+R6
+32
+R39
+R40
+R41
+R10
+R11
+!s100 zflP55G<45d;8jER[YgaM3
+Eand_num_bit
+Z42 w1544371348
+R13
+R14
+R1
+R2
+R3
+Z43 8D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/AND_NUM_BIT.vhd
+Z44 FD:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/AND_NUM_BIT.vhd
+l0
+L6
+V;MGn3`b1^zzV?zHL7QG1m1
+R6
+32
+Z45 !s108 1544378154.259000
+Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/AND_NUM_BIT.vhd|
+Z47 !s107 D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/AND_NUM_BIT.vhd|
+R10
+R11
+!s100 C][hKjOdKQiU=kLN5dHfi3
+Abehavioural
+R13
+R14
+R1
+R2
+DEx4 work 11 and_num_bit 0 22 ;MGn3`b1^zzV?zHL7QG1m1
+l13
+L12
+Vlz]Ie[I1X@OVc1Y1@>mF>2
+R6
+32
+R45
+R46
+R47
+R10
+R11
+!s100 ]DOR:N6SnI>Q]KHRSdRhk0
+Edecisore
+R12
+R13
+R14
+R1
+R2
+R3
+Z48 8D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/Decisore.vhd
+Z49 FD:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/Decisore.vhd
+l0
+L6
+VLCFjZb:8_H<aHaHDj[]H^1
+R6
+32
+Z50 !s108 1544378154.334000
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/Decisore.vhd|
+Z52 !s107 D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/Decisore.vhd|
+R10
+R11
+!s100 4fJ?kcRUChXf2^4`Gbo_d0
+Abehavioural
+R13
+R14
+R1
+R2
+DEx4 work 8 decisore 0 22 LCFjZb:8_H<aHaHDj[]H^1
+l16
+L13
+Vb]@^RYH53XGM2aX37b1gV3
+R6
+32
+R50
+R51
+R52
+R10
+R11
+!s100 z0eI0DHaGFPPj56Ukb0fz3
+Efsm_rx
+Z53 w1544377144
+R13
+R31
+R1
+R2
+R3
+Z54 8D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/FSM_RX.vhd
+Z55 FD:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/FSM_RX.vhd
+l0
+L5
+VeTncgczKR<82FkmgHLb6b2
+R6
+32
+Z56 !s108 1544378154.417000
+Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/FSM_RX.vhd|
+Z58 !s107 D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/FSM_RX.vhd|
+R10
+R11
+!s100 oQCS`e6<45cGRD12boN?<0
+Abehavioural
+R13
+R31
+R1
+R2
+DEx4 work 6 fsm_rx 0 22 eTncgczKR<82FkmgHLb6b2
+l15
+L10
+V0c^efLY6>JKEOK6;0`WFE3
+R6
+32
+R56
+R57
+R58
+R10
+R11
+!s100 P<GNEI[WHM5J;7A>ZfzAG2
+Efsm_tx
+R30
+R13
+R31
+R1
+R2
+R3
+Z59 8D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/TX/FSM_TX.vhd
+Z60 FD:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/TX/FSM_TX.vhd
+l0
+L5
+VVUQ0i?HnVbim`aRc<?4]T1
+R6
+32
+Z61 !s108 1544378155.107000
+Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/TX/FSM_TX.vhd|
+Z63 !s107 D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/TX/FSM_TX.vhd|
+R10
+R11
+!s100 Po_a>@Q_f9a;3=FWoJcch2
+Abehavioural
+R13
+R31
+R1
+R2
+DEx4 work 6 fsm_tx 0 22 VUQ0i?HnVbim`aRc<?4]T1
+l19
+L14
+Vi[;IN9NMHl`OMfT[6JEem0
+R6
+32
+R61
+R62
+R63
+R10
+R11
+!s100 Uezl<2g1LBWY]:F?L`4<b2
+Einvert
+Z64 w1544351396
+R13
+R14
+R1
+R2
+R3
+Z65 8D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/invert.vhd
+Z66 FD:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/invert.vhd
+l0
+L6
+V@YHZ]hYzC4gL?T@F]3Lb^3
+R6
+32
+Z67 !s108 1544378154.484000
+Z68 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/invert.vhd|
+Z69 !s107 D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/invert.vhd|
+R10
+R11
+!s100 >DLGEj=<hE?L];Y`D0dh>0
+Abehavioural
+R13
+R14
+R1
+R2
+DEx4 work 6 invert 0 22 @YHZ]hYzC4gL?T@F]3Lb^3
+l14
+L13
+V9c35`?3BIK9PoaLk3S=;W3
+R6
+32
+R67
+R68
+R69
+R10
+R11
+!s100 :2Dl<=lNGFBH>>LWII>ee1
+Elpm_counter_rx_mod_16
+R12
+R1
+R2
+R3
+Z70 8D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/lpm_counter_RX_MOD_16.vhd
+Z71 FD:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/lpm_counter_RX_MOD_16.vhd
+l0
+L42
+VZzRR8?2`G8LQJ=aRgF]aT3
+R6
+32
+Z72 !s108 1544378154.554000
+Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/lpm_counter_RX_MOD_16.vhd|
+Z74 !s107 D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/lpm_counter_RX_MOD_16.vhd|
+R10
+R11
+!s100 kZkd?aV7mcCNcYXolFfkJ2
+Asyn
+R1
+R2
+DEx4 work 21 lpm_counter_rx_mod_16 0 22 ZzRR8?2`G8LQJ=aRgF]aT3
+l74
+L53
+V^58;>35@B>VEk`87cAn7n0
+R6
+32
+R72
+R73
+R74
+R10
+R11
+!s100 J@zK43edJe9jKh8?<f84N3
+Elpm_counter_rx_mod_32
+R12
+R1
+R2
+R3
+Z75 8D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/lpm_counter_RX_MOD_32.vhd
+Z76 FD:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/lpm_counter_RX_MOD_32.vhd
+l0
+L42
+VYPZPz:c1VRdGfTH2;DI[D0
+R6
+32
+Z77 !s108 1544378154.621000
+Z78 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/lpm_counter_RX_MOD_32.vhd|
+Z79 !s107 D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/lpm_counter_RX_MOD_32.vhd|
+R10
+R11
+!s100 8GWPY2JmL=CDKUUU4kG6X1
+Asyn
+R1
+R2
+DEx4 work 21 lpm_counter_rx_mod_32 0 22 YPZPz:c1VRdGfTH2;DI[D0
+l74
+L53
+Vnh5CjF8_TB2Hb=NMDL^mo1
+R6
+32
+R77
+R78
+R79
+R10
+R11
+!s100 ^deHKE?Y?RSmHSP_Q_1[D1
+Elpm_counter_tx
+R30
+R1
+R2
+R3
+Z80 8D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/TX/lpm_counter_TX.vhd
+Z81 FD:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/TX/lpm_counter_TX.vhd
+l0
+L42
+Vm6F2JDUB2XW[h`6LS1K7h1
+R6
+32
+Z82 !s108 1544378155.169000
+Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/TX/lpm_counter_TX.vhd|
+Z84 !s107 D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/TX/lpm_counter_TX.vhd|
+R10
+R11
+!s100 8KU>3hhi9:nW0F@Ki6f3i0
+Asyn
+R1
+R2
+DEx4 work 14 lpm_counter_tx 0 22 m6F2JDUB2XW[h`6LS1K7h1
+l74
+L53
+VZaf`3@_Hi<`c2GbN]Uz@a2
+R6
+32
+R82
+R83
+R84
+R10
+R11
+!s100 OZGH2=?Y^BKFGbo]eLzoV3
+Elpm_counter_tx_mod_10
+R30
+R1
+R2
+R3
+Z85 8D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/TX/lpm_counter_TX_MOD_10.vhd
+Z86 FD:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/TX/lpm_counter_TX_MOD_10.vhd
+l0
+L42
+VInXXbCEWQm7MahG66LI[22
+R6
+32
+Z87 !s108 1544378155.268000
+Z88 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/TX/lpm_counter_TX_MOD_10.vhd|
+Z89 !s107 D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/TX/lpm_counter_TX_MOD_10.vhd|
+R10
+R11
+!s100 cAiQPgoZMJ@NC4G46W@M41
+Asyn
+R1
+R2
+DEx4 work 21 lpm_counter_tx_mod_10 0 22 InXXbCEWQm7MahG66LI[22
+l74
+L53
+VKA?PO4S:lhjB8QTS=4eF^0
+R6
+32
+R87
+R88
+R89
+R10
+R11
+!s100 K4U<NBk6K4;WzClg3PN6;2
+Elpm_ff_0
+R30
+Z90 DPx3 lpm 14 lpm_components 0 22 mRRNnLG1BL;^5k5IEBX593
+R1
+R2
+R3
+Z91 8D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/TX/lpm_ff_0.vhd
+Z92 FD:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/TX/lpm_ff_0.vhd
+l0
+L30
+VSFZoUG@h51RL^0RIaSHAD1
+R6
+32
+Z93 !s108 1544378155.348000
+Z94 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/TX/lpm_ff_0.vhd|
+Z95 !s107 D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/TX/lpm_ff_0.vhd|
+R10
+R11
+!s100 =S[BV@IK[D7;MednMjNDl3
+Abdf_type
+R90
+R1
+R2
+DEx4 work 8 lpm_ff_0 0 22 SFZoUG@h51RL^0RIaSHAD1
+l40
+L39
+VmVF0Ih7ljV<^2[EfQSiKB1
+R6
+32
+R93
+R94
+R95
+R10
+R11
+!s100 QJTPbE?XOF?S@[jB4>R@M3
+Elpm_mux0
+R30
+R90
+R1
+R2
+R3
+Z96 8D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/TX/lpm_mux0.vhd
+Z97 FD:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/TX/lpm_mux0.vhd
+l0
+L42
+VIYTi;_YGD7SXlB1PI5T<I0
+R6
+32
+Z98 !s108 1544378155.449000
+Z99 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/TX/lpm_mux0.vhd|
+Z100 !s107 D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/TX/lpm_mux0.vhd|
+R10
+R11
+!s100 @`=F2K4mXA8m?HP3OGbQ21
+Asyn
+R90
+R1
+R2
+DEx4 work 8 lpm_mux0 0 22 IYTi;_YGD7SXlB1PI5T<I0
+l65
+L53
+V6I05@GRSR@]33HP]LcI;50
+R6
+32
+R98
+R99
+R100
+R10
+R11
+!s100 OzE3<RkN@`3Cm>[J<g3Y51
+Elpm_shiftreg0
+R30
+R1
+R2
+R3
+Z101 8D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/TX/lpm_shiftreg0.vhd
+Z102 FD:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/TX/lpm_shiftreg0.vhd
+l0
+L42
+V4b:d2gzABVMaa;AjN;N`Y2
+R6
+32
+Z103 !s108 1544378155.517000
+Z104 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/TX/lpm_shiftreg0.vhd|
+Z105 !s107 D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/TX/lpm_shiftreg0.vhd|
+R10
+R11
+!s100 m8VA]zenN=J>NIkCZ<@m63
+Asyn
+R1
+R2
+DEx4 work 13 lpm_shiftreg0 0 22 4b:d2gzABVMaa;AjN;N`Y2
+l75
+L54
+V9M38mSW0]@aL8K?06P_Bb0
+R6
+32
+R103
+R104
+R105
+R10
+R11
+!s100 UnPCIQjYhF5A<K_;f3_<=1
+Elpm_shiftreg_rx_left_edge
+R12
+R1
+R2
+R3
+Z106 8D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/lpm_shiftreg_RX_LEFT_EDGE.vhd
+Z107 FD:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/lpm_shiftreg_RX_LEFT_EDGE.vhd
+l0
+L42
+VZdQFz<DSIQRf<WlW5AQSS3
+R6
+32
+Z108 !s108 1544378154.698000
+Z109 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/lpm_shiftreg_RX_LEFT_EDGE.vhd|
+Z110 !s107 D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/lpm_shiftreg_RX_LEFT_EDGE.vhd|
+R10
+R11
+!s100 nIj28`SSYf;C;OG3YHR:Z2
+Asyn
+R1
+R2
+DEx4 work 25 lpm_shiftreg_rx_left_edge 0 22 ZdQFz<DSIQRf<WlW5AQSS3
+l75
+L54
+VR28A3W5OXFMRYNU;6O5JZ3
+R6
+32
+R108
+R109
+R110
+R10
+R11
+!s100 P>3Oa;;Rg@Q4M]?8Y?gAG0
+Elpm_shiftreg_rx_right_8_bit
+R12
+R1
+R2
+R3
+Z111 8D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/lpm_shiftreg_RX_RIGHT_8_BIT.vhd
+Z112 FD:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/lpm_shiftreg_RX_RIGHT_8_BIT.vhd
+l0
+L42
+VD5A3A48GM>n;ciW@b?A5g3
+R6
+32
+Z113 !s108 1544378154.769000
+Z114 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/lpm_shiftreg_RX_RIGHT_8_BIT.vhd|
+Z115 !s107 D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/lpm_shiftreg_RX_RIGHT_8_BIT.vhd|
+R10
+R11
+!s100 2i81D7:9jlO]k^e;_;ag@0
+Asyn
+R1
+R2
+DEx4 work 27 lpm_shiftreg_rx_right_8_bit 0 22 D5A3A48GM>n;ciW@b?A5g3
+l75
+L54
+V?2D3@ofTzf3J;KUOEATN41
+R6
+32
+R113
+R114
+R115
+R10
+R11
+!s100 ``0DR]F?AiTY2<MI>_bZ20
+Elpm_shiftreg_rx_right_9
+Z116 w1544376455
+R1
+R2
+R3
+Z117 8D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/lpm_shiftreg_RX_RIGHT_9.vhd
+Z118 FD:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/lpm_shiftreg_RX_RIGHT_9.vhd
+l0
+L42
+VGU[d0K[;WcL9cQk_52kEF2
+R6
+32
+Z119 !s108 1544378154.833000
+Z120 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/lpm_shiftreg_RX_RIGHT_9.vhd|
+Z121 !s107 D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/lpm_shiftreg_RX_RIGHT_9.vhd|
+R10
+R11
+!s100 oSIU0ViY;7j`=FQfmJK7`1
+Asyn
+R1
+R2
+DEx4 work 23 lpm_shiftreg_rx_right_9 0 22 GU[d0K[;WcL9cQk_52kEF2
+l75
+L54
+VL@TA5fd?J0h[HFXgKdM7c3
+R6
+32
+R119
+R120
+R121
+R10
+R11
+!s100 d:9C=cmL0FFH1O@gh5jVR3
+Erx
+Z122 w1544377275
+R1
+R2
+R3
+Z123 8D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/RX.vhd
+Z124 FD:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/RX.vhd
+l0
+L24
+V;Cg_@XPcIWZ9lNX`VM2[z0
+R6
+32
+Z125 !s108 1544378154.899000
+Z126 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/RX.vhd|
+Z127 !s107 D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/RX/RX.vhd|
+R10
+R11
+!s100 cjL0h``S_=a7PTlm2UIPW2
+Abdf_type
+R1
+R2
+DEx4 work 2 rx 0 22 ;Cg_@XPcIWZ9lNX`VM2[z0
+l154
+L36
+VTZe2bEcON;G^l0KBz<c:B1
+R6
+32
+R125
+R126
+R127
+R10
+R11
+!s100 UaD8fz28f1cEHX78f=1:=2
+Etb_uart
+Z128 w1544377489
+R13
+R31
+R1
+R2
+R3
+Z129 8D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/UART/TB_UART.vhd
+Z130 FD:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/UART/TB_UART.vhd
+l0
+L6
+V@F>l^nEMLKid@LPLI8a@o1
+!s100 hBTA<^@;;>JIaSh5WjTD32
+R6
+32
+Z131 !s108 1544378155.770000
+Z132 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/UART/TB_UART.vhd|
+Z133 !s107 D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/UART/TB_UART.vhd|
+R10
+R11
+Astructural
+R13
+R31
+R1
+R2
+Z134 DEx4 work 7 tb_uart 0 22 @F>l^nEMLKid@LPLI8a@o1
+l28
+L10
+Z135 VS=DR9iMM>L57:dSaTdOEG2
+Z136 !s100 =@RDF]e:7dlK4l?Ea5k^G2
+R6
+32
+R131
+R132
+R133
+R10
+R11
+Etx
+R30
+R1
+R2
+R3
+Z137 8D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/TX/TX.vhd
+Z138 FD:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/TX/TX.vhd
+l0
+L24
+V6n0Z8B>=mX2Vk?z0bQKzE2
+R6
+32
+Z139 !s108 1544378155.575000
+Z140 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/TX/TX.vhd|
+Z141 !s107 D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/TX/TX.vhd|
+R10
+R11
+!s100 I[PcCZZHl7Z0JLb0V0kO=0
+Abdf_type
+R1
+R2
+DEx4 work 2 tx 0 22 6n0Z8B>=mX2Vk?z0bQKzE2
+l127
+L36
+VdOBhN5;Jc0YSI58Q3oF^c3
+R6
+32
+R139
+R140
+R141
+R10
+R11
+!s100 UG`C@aJ^4[^T;0_iZ1aMh1
+Euart
+Z142 w1544377368
+R1
+R2
+R3
+Z143 8D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/UART/UART.vhd
+Z144 FD:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/UART/UART.vhd
+l0
+L24
+VT=`S]^M]F:IEF`2`W_KAG3
+R6
+32
+Z145 !s108 1544378155.706000
+Z146 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/UART/UART.vhd|
+Z147 !s107 D:/PoliTo/SDI/Lab2/PROGETTO_UART/quartus/UART/UART.vhd|
+R10
+R11
+!s100 Xhg5T4RDUIj=DVC>ZU=3H2
+Abdf_type
+R1
+R2
+DEx4 work 4 uart 0 22 T=`S]^M]F:IEF`2`W_KAG3
+l71
+L40
+VD14BW<9N5jibN:;8[DD0>3
+!s100 _=3RNdO?ic24WM12?o8C90
+R6
+32
+R145
+R146
+R147
+R10
+R11

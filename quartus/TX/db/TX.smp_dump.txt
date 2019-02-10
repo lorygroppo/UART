@@ -1,0 +1,9 @@
+
+State Machine - |TX|FSM_TX:FSM_TX|present_state
+Name present_state.CONTROL_END_BIT present_state.NEXT_BIT present_state.TX_BIT present_state.LOAD_DATA present_state.WAIT_WR present_state.RESET 
+present_state.RESET 0 0 0 0 0 0 
+present_state.WAIT_WR 0 0 0 0 1 1 
+present_state.LOAD_DATA 0 0 0 1 0 1 
+present_state.TX_BIT 0 0 1 0 0 1 
+present_state.NEXT_BIT 0 1 0 0 0 1 
+present_state.CONTROL_END_BIT 1 0 0 0 0 1 

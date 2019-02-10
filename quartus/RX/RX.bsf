@@ -1,0 +1,85 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2011 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 240 144)
+	(text "RX" (rect 5 0 21 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 112 25 124)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "CK" (rect 0 0 16 14)(font "Arial" (font_size 8)))
+		(text "CK" (rect 21 27 37 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "RX_UART" (rect 0 0 56 14)(font "Arial" (font_size 8)))
+		(text "RX_UART" (rect 21 43 77 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "RD" (rect 0 0 16 14)(font "Arial" (font_size 8)))
+		(text "RD" (rect 21 59 37 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "RESETn" (rect 0 0 44 14)(font "Arial" (font_size 8)))
+		(text "RESETn" (rect 21 75 65 89)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 224 32)
+		(output)
+		(text "Campionamento_out" (rect 0 0 114 14)(font "Arial" (font_size 8)))
+		(text "Campionamento_out" (rect 89 27 203 41)(font "Arial" (font_size 8)))
+		(line (pt 224 32)(pt 208 32))
+	)
+	(port
+		(pt 224 48)
+		(output)
+		(text "DAV" (rect 0 0 27 14)(font "Arial" (font_size 8)))
+		(text "DAV" (rect 176 43 203 57)(font "Arial" (font_size 8)))
+		(line (pt 224 48)(pt 208 48))
+	)
+	(port
+		(pt 224 64)
+		(output)
+		(text "DOUT[7..0]" (rect 0 0 61 14)(font "Arial" (font_size 8)))
+		(text "DOUT[7..0]" (rect 142 59 203 73)(font "Arial" (font_size 8)))
+		(line (pt 224 64)(pt 208 64)(line_width 3))
+	)
+	(port
+		(pt 224 80)
+		(output)
+		(text "stop_bit_out" (rect 0 0 69 14)(font "Arial" (font_size 8)))
+		(text "stop_bit_out" (rect 134 75 203 89)(font "Arial" (font_size 8)))
+		(line (pt 224 80)(pt 208 80))
+	)
+	(drawing
+		(rectangle (rect 16 16 208 112))
+	)
+)

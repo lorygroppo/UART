@@ -1,0 +1,854 @@
+m255
+K3
+13
+cModel Technology
+dC:\Users\valer\Desktop\Tools
+Ealtpll0
+Z0 w1544176673
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dC:\Users\valer\Desktop\PROGETTO_UART\modelsim
+Z4 8C:/Users/valer/Desktop/PROGETTO_UART/quartus/UART/altpll0.vhd
+Z5 FC:/Users/valer/Desktop/PROGETTO_UART/quartus/UART/altpll0.vhd
+l0
+L42
+Vfi_oE;H54ijV8znoT74lV1
+Z6 OV;C;10.1b;51
+32
+Z7 !s108 1544354321.459000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/valer/Desktop/PROGETTO_UART/quartus/UART/altpll0.vhd|
+Z9 !s107 C:/Users/valer/Desktop/PROGETTO_UART/quartus/UART/altpll0.vhd|
+Z10 o-work work -2002 -explicit -O0
+Z11 tExplicit 1
+!s100 c;^AVB37YG>LhfkT:;4W81
+!i10b 1
+Asyn
+R1
+R2
+DEx4 work 7 altpll0 0 22 fi_oE;H54ijV8znoT74lV1
+l121
+L51
+V6Mma9@BA[hQ@FhWJDJUd<2
+R6
+32
+R7
+R8
+R9
+R10
+R11
+!s100 I:Vm?L8_o[m81HY2;WAB83
+!i10b 1
+Eand_clk_div
+Z12 w1543060564
+Z13 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z14 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+R1
+R2
+R3
+Z15 8C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/AND_clk_div.vhd
+Z16 FC:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/AND_clk_div.vhd
+l0
+L6
+VG[?1PQ9R7cCzoEXG=F0o`0
+R6
+32
+Z17 !s108 1544354324.798000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/AND_clk_div.vhd|
+Z19 !s107 C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/AND_clk_div.vhd|
+R10
+R11
+!s100 Q2;HFMXENGd:UHHeVb0B=2
+!i10b 1
+Abehavioural
+R13
+R14
+R1
+R2
+DEx4 work 11 and_clk_div 0 22 G[?1PQ9R7cCzoEXG=F0o`0
+l14
+L13
+V_]3nmVLQnYdbhS_SU9=6W3
+R6
+32
+R17
+R18
+R19
+R10
+R11
+!s100 J58[QgSA>O;H838ke1^Ec1
+!i10b 1
+Eand_decisore
+Z20 w1543059188
+R13
+R14
+R1
+R2
+R3
+Z21 8C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/AND_Decisore.vhd
+Z22 FC:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/AND_Decisore.vhd
+l0
+L6
+VTA9mi>ae`e[?4]0iRdbhg2
+R6
+32
+Z23 !s108 1544354325.036000
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/AND_Decisore.vhd|
+Z25 !s107 C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/AND_Decisore.vhd|
+R10
+R11
+!s100 Gh`lPQLWSGhz:dD=o70A80
+!i10b 1
+Abehavioural
+R13
+R14
+R1
+R2
+DEx4 work 12 and_decisore 0 22 TA9mi>ae`e[?4]0iRdbhg2
+l14
+L13
+VNWaDaPnSlaz9bW9FKV88a3
+R6
+32
+R23
+R24
+R25
+R10
+R11
+!s100 IUWV7_nCJ0d1bGhS3Pf>D1
+!i10b 1
+Eand_edge_detector
+Z26 w1543058000
+R13
+R14
+R1
+R2
+R3
+Z27 8C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/AND_Edge_Detector.vhd
+Z28 FC:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/AND_Edge_Detector.vhd
+l0
+L6
+VYb<_]WYZ?lb^JIRFll`zV2
+R6
+32
+Z29 !s108 1544354325.348000
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/AND_Edge_Detector.vhd|
+Z31 !s107 C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/AND_Edge_Detector.vhd|
+R10
+R11
+!s100 AO]b6kX:ShDP6K49;>lDZ3
+!i10b 1
+Abehavioural
+R13
+R14
+R1
+R2
+DEx4 work 17 and_edge_detector 0 22 Yb<_]WYZ?lb^JIRFll`zV2
+l14
+L13
+VA=4VFz=jHJi[QZYdbmPeR0
+R6
+32
+R29
+R30
+R31
+R10
+R11
+!s100 >GIdT>_DB_:]RA];XGRBL3
+!i10b 1
+Eand_gate_4
+Z32 w1542959394
+R13
+Z33 DPx4 ieee 16 std_logic_signed 0 22 E>OLoMaBGQ?hbGgOoNXM^1
+R1
+R2
+R3
+Z34 8C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/and_gate_4.vhd
+Z35 FC:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/and_gate_4.vhd
+l0
+L5
+VEehSgZAlQZI@Q6cSL6[j>2
+R6
+32
+Z36 !s108 1544354322.368000
+Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/and_gate_4.vhd|
+Z38 !s107 C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/and_gate_4.vhd|
+R10
+R11
+!s100 8Be>2c@?j80__7MB=KCL90
+!i10b 1
+Abehavioural
+R13
+R33
+R1
+R2
+DEx4 work 10 and_gate_4 0 22 EehSgZAlQZI@Q6cSL6[j>2
+l16
+L15
+VkB01fC4LNgYHmZjh[^mP11
+R6
+32
+R36
+R37
+R38
+R10
+R11
+!s100 5P>>>1;47c7jNEG2c^Qf10
+!i10b 1
+Eand_gate_8
+Z39 w1544272346
+R13
+R33
+R1
+R2
+R3
+Z40 8C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/and_gate_8.vhd
+Z41 FC:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/and_gate_8.vhd
+l0
+L5
+VZk=LB<RdRWY4@I84m7G[X1
+R6
+32
+Z42 !s108 1544354322.589000
+Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/and_gate_8.vhd|
+Z44 !s107 C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/and_gate_8.vhd|
+R10
+R11
+!s100 2DmY^Vm`IiSB:o[0L=;1;0
+!i10b 1
+Abehavioural
+R13
+R33
+R1
+R2
+DEx4 work 10 and_gate_8 0 22 Zk=LB<RdRWY4@I84m7G[X1
+l16
+L15
+Voj=KUNVi_Co2PL;FSEIUi1
+R6
+32
+R42
+R43
+R44
+R10
+R11
+!s100 zflP55G<45d;8jER[YgaM3
+!i10b 1
+Edecisore
+Z45 w1543059968
+R13
+R14
+R1
+R2
+R3
+Z46 8C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/Decisore.vhd
+Z47 FC:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/Decisore.vhd
+l0
+L6
+VLCFjZb:8_H<aHaHDj[]H^1
+R6
+32
+Z48 !s108 1544354325.587000
+Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/Decisore.vhd|
+Z50 !s107 C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/Decisore.vhd|
+R10
+R11
+!s100 4fJ?kcRUChXf2^4`Gbo_d0
+!i10b 1
+Abehavioural
+R13
+R14
+R1
+R2
+DEx4 work 8 decisore 0 22 LCFjZb:8_H<aHaHDj[]H^1
+l16
+L13
+Vb]@^RYH53XGM2aX37b1gV3
+R6
+32
+R48
+R49
+R50
+R10
+R11
+!s100 z0eI0DHaGFPPj56Ukb0fz3
+!i10b 1
+Efsm_rx
+Z51 w1544277819
+R13
+R33
+R1
+R2
+R3
+Z52 8C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/FSM_RX.vhd
+Z53 FC:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/FSM_RX.vhd
+l0
+L5
+V[bC3NJhV93>15G[G0LeC20
+R6
+32
+Z54 !s108 1544354325.869000
+Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/FSM_RX.vhd|
+Z56 !s107 C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/FSM_RX.vhd|
+R10
+R11
+!s100 888U;nfHV@GS`P@Ym_8[i3
+!i10b 1
+Abehavioural
+R13
+R33
+R1
+R2
+DEx4 work 6 fsm_rx 0 22 [bC3NJhV93>15G[G0LeC20
+l15
+L10
+VZBNFb5SeI62D6ZmoHPh^71
+R6
+32
+R54
+R55
+R56
+R10
+R11
+!s100 ^z1>hlDMUCdc>?441FLTH1
+!i10b 1
+Efsm_tx
+Z57 w1544263269
+R13
+R33
+R1
+R2
+R3
+Z58 8C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/FSM_TX.vhd
+Z59 FC:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/FSM_TX.vhd
+l0
+L5
+VVUQ0i?HnVbim`aRc<?4]T1
+R6
+32
+Z60 !s108 1544354322.821000
+Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/FSM_TX.vhd|
+Z62 !s107 C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/FSM_TX.vhd|
+R10
+R11
+!s100 Po_a>@Q_f9a;3=FWoJcch2
+!i10b 1
+Abehavioural
+R13
+R33
+R1
+R2
+DEx4 work 6 fsm_tx 0 22 VUQ0i?HnVbim`aRc<?4]T1
+l19
+L14
+Vi[;IN9NMHl`OMfT[6JEem0
+R6
+32
+R60
+R61
+R62
+R10
+R11
+!s100 Uezl<2g1LBWY]:F?L`4<b2
+!i10b 1
+Einvert
+Z63 w1543075766
+R13
+R14
+R1
+R2
+R3
+Z64 8C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/invert.vhd
+Z65 FC:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/invert.vhd
+l0
+L6
+V@YHZ]hYzC4gL?T@F]3Lb^3
+R6
+32
+Z66 !s108 1544354326.095000
+Z67 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/invert.vhd|
+Z68 !s107 C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/invert.vhd|
+R10
+R11
+!s100 >DLGEj=<hE?L];Y`D0dh>0
+!i10b 1
+Abehavioural
+R13
+R14
+R1
+R2
+DEx4 work 6 invert 0 22 @YHZ]hYzC4gL?T@F]3Lb^3
+l14
+L13
+V9c35`?3BIK9PoaLk3S=;W3
+R6
+32
+R66
+R67
+R68
+R10
+R11
+!s100 :2Dl<=lNGFBH>>LWII>ee1
+!i10b 1
+Elpm_counter_rx_mod_16
+Z69 w1544275519
+R1
+R2
+R3
+Z70 8C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/lpm_counter_RX_MOD_16.vhd
+Z71 FC:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/lpm_counter_RX_MOD_16.vhd
+l0
+L42
+VZzRR8?2`G8LQJ=aRgF]aT3
+R6
+32
+Z72 !s108 1544354326.385000
+Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/lpm_counter_RX_MOD_16.vhd|
+Z74 !s107 C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/lpm_counter_RX_MOD_16.vhd|
+R10
+R11
+!s100 kZkd?aV7mcCNcYXolFfkJ2
+!i10b 1
+Asyn
+R1
+R2
+DEx4 work 21 lpm_counter_rx_mod_16 0 22 ZzRR8?2`G8LQJ=aRgF]aT3
+l74
+L53
+V^58;>35@B>VEk`87cAn7n0
+R6
+32
+R72
+R73
+R74
+R10
+R11
+!s100 J@zK43edJe9jKh8?<f84N3
+!i10b 1
+Elpm_counter_rx_mod_32
+Z75 w1544275428
+R1
+R2
+R3
+Z76 8C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/lpm_counter_RX_MOD_32.vhd
+Z77 FC:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/lpm_counter_RX_MOD_32.vhd
+l0
+L42
+VYPZPz:c1VRdGfTH2;DI[D0
+R6
+32
+Z78 !s108 1544354326.613000
+Z79 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/lpm_counter_RX_MOD_32.vhd|
+Z80 !s107 C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/lpm_counter_RX_MOD_32.vhd|
+R10
+R11
+!s100 8GWPY2JmL=CDKUUU4kG6X1
+!i10b 1
+Asyn
+R1
+R2
+DEx4 work 21 lpm_counter_rx_mod_32 0 22 YPZPz:c1VRdGfTH2;DI[D0
+l74
+L53
+Vnh5CjF8_TB2Hb=NMDL^mo1
+R6
+32
+R78
+R79
+R80
+R10
+R11
+!s100 ^deHKE?Y?RSmHSP_Q_1[D1
+!i10b 1
+Elpm_counter_tx
+Z81 w1544272724
+R1
+R2
+R3
+Z82 8C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/lpm_counter_TX.vhd
+Z83 FC:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/lpm_counter_TX.vhd
+l0
+L42
+Vm6F2JDUB2XW[h`6LS1K7h1
+R6
+32
+Z84 !s108 1544354323.127000
+Z85 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/lpm_counter_TX.vhd|
+Z86 !s107 C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/lpm_counter_TX.vhd|
+R10
+R11
+!s100 8KU>3hhi9:nW0F@Ki6f3i0
+!i10b 1
+Asyn
+R1
+R2
+DEx4 work 14 lpm_counter_tx 0 22 m6F2JDUB2XW[h`6LS1K7h1
+l74
+L53
+VZaf`3@_Hi<`c2GbN]Uz@a2
+R6
+32
+R84
+R85
+R86
+R10
+R11
+!s100 OZGH2=?Y^BKFGbo]eLzoV3
+!i10b 1
+Elpm_counter_tx_mod_10
+Z87 w1544272952
+R1
+R2
+R3
+Z88 8C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/lpm_counter_TX_MOD_10.vhd
+Z89 FC:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/lpm_counter_TX_MOD_10.vhd
+l0
+L42
+VInXXbCEWQm7MahG66LI[22
+R6
+32
+Z90 !s108 1544354323.468000
+Z91 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/lpm_counter_TX_MOD_10.vhd|
+Z92 !s107 C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/lpm_counter_TX_MOD_10.vhd|
+R10
+R11
+!s100 cAiQPgoZMJ@NC4G46W@M41
+!i10b 1
+Asyn
+R1
+R2
+DEx4 work 21 lpm_counter_tx_mod_10 0 22 InXXbCEWQm7MahG66LI[22
+l74
+L53
+VKA?PO4S:lhjB8QTS=4eF^0
+R6
+32
+R90
+R91
+R92
+R10
+R11
+!s100 K4U<NBk6K4;WzClg3PN6;2
+!i10b 1
+Elpm_ff_0
+Z93 w1544282819
+Z94 DPx3 lpm 14 lpm_components 0 22 ML[mZ<BGoP<RSH:n8:Uoj3
+R1
+R2
+R3
+Z95 8C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/lpm_ff_0.vhd
+Z96 FC:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/lpm_ff_0.vhd
+l0
+L30
+VSFZoUG@h51RL^0RIaSHAD1
+R6
+32
+Z97 !s108 1544354323.718000
+Z98 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/lpm_ff_0.vhd|
+Z99 !s107 C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/lpm_ff_0.vhd|
+R10
+R11
+!s100 =S[BV@IK[D7;MednMjNDl3
+!i10b 1
+Abdf_type
+R94
+R1
+R2
+DEx4 work 8 lpm_ff_0 0 22 SFZoUG@h51RL^0RIaSHAD1
+l40
+L39
+VmVF0Ih7ljV<^2[EfQSiKB1
+R6
+32
+R97
+R98
+R99
+R10
+R11
+!s100 QJTPbE?XOF?S@[jB4>R@M3
+!i10b 1
+Elpm_mux0
+Z100 w1542960530
+R94
+R1
+R2
+R3
+Z101 8C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/lpm_mux0.vhd
+Z102 FC:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/lpm_mux0.vhd
+l0
+L42
+VIYTi;_YGD7SXlB1PI5T<I0
+R6
+32
+Z103 !s108 1544354323.954000
+Z104 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/lpm_mux0.vhd|
+Z105 !s107 C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/lpm_mux0.vhd|
+R10
+R11
+!s100 @`=F2K4mXA8m?HP3OGbQ21
+!i10b 1
+Asyn
+R94
+R1
+R2
+DEx4 work 8 lpm_mux0 0 22 IYTi;_YGD7SXlB1PI5T<I0
+l65
+L53
+V6I05@GRSR@]33HP]LcI;50
+R6
+32
+R103
+R104
+R105
+R10
+R11
+!s100 OzE3<RkN@`3Cm>[J<g3Y51
+!i10b 1
+Elpm_shiftreg0
+Z106 w1542960654
+R1
+R2
+R3
+Z107 8C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/lpm_shiftreg0.vhd
+Z108 FC:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/lpm_shiftreg0.vhd
+l0
+L42
+V4b:d2gzABVMaa;AjN;N`Y2
+R6
+32
+Z109 !s108 1544354324.251000
+Z110 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/lpm_shiftreg0.vhd|
+Z111 !s107 C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/lpm_shiftreg0.vhd|
+R10
+R11
+!s100 m8VA]zenN=J>NIkCZ<@m63
+!i10b 1
+Asyn
+R1
+R2
+DEx4 work 13 lpm_shiftreg0 0 22 4b:d2gzABVMaa;AjN;N`Y2
+l75
+L54
+V9M38mSW0]@aL8K?06P_Bb0
+R6
+32
+R109
+R110
+R111
+R10
+R11
+!s100 UnPCIQjYhF5A<K_;f3_<=1
+!i10b 1
+Elpm_shiftreg_rx_left_edge
+Z112 w1544275779
+R1
+R2
+R3
+Z113 8C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/lpm_shiftreg_RX_LEFT_EDGE.vhd
+Z114 FC:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/lpm_shiftreg_RX_LEFT_EDGE.vhd
+l0
+L42
+VZdQFz<DSIQRf<WlW5AQSS3
+R6
+32
+Z115 !s108 1544354326.857000
+Z116 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/lpm_shiftreg_RX_LEFT_EDGE.vhd|
+Z117 !s107 C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/lpm_shiftreg_RX_LEFT_EDGE.vhd|
+R10
+R11
+!s100 nIj28`SSYf;C;OG3YHR:Z2
+!i10b 1
+Asyn
+R1
+R2
+DEx4 work 25 lpm_shiftreg_rx_left_edge 0 22 ZdQFz<DSIQRf<WlW5AQSS3
+l75
+L54
+VR28A3W5OXFMRYNU;6O5JZ3
+R6
+32
+R115
+R116
+R117
+R10
+R11
+!s100 P>3Oa;;Rg@Q4M]?8Y?gAG0
+!i10b 1
+Elpm_shiftreg_rx_right_8_bit
+Z118 w1544275887
+R1
+R2
+R3
+Z119 8C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/lpm_shiftreg_RX_RIGHT_8_BIT.vhd
+Z120 FC:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/lpm_shiftreg_RX_RIGHT_8_BIT.vhd
+l0
+L42
+VD5A3A48GM>n;ciW@b?A5g3
+R6
+32
+Z121 !s108 1544354327.161000
+Z122 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/lpm_shiftreg_RX_RIGHT_8_BIT.vhd|
+Z123 !s107 C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/lpm_shiftreg_RX_RIGHT_8_BIT.vhd|
+R10
+R11
+!s100 2i81D7:9jlO]k^e;_;ag@0
+!i10b 1
+Asyn
+R1
+R2
+DEx4 work 27 lpm_shiftreg_rx_right_8_bit 0 22 D5A3A48GM>n;ciW@b?A5g3
+l75
+L54
+V?2D3@ofTzf3J;KUOEATN41
+R6
+32
+R121
+R122
+R123
+R10
+R11
+!s100 ``0DR]F?AiTY2<MI>_bZ20
+!i10b 1
+Erx
+Z124 w1544278063
+R1
+R2
+R3
+Z125 8C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/RX.vhd
+Z126 FC:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/RX.vhd
+l0
+L24
+V;Cg_@XPcIWZ9lNX`VM2[z0
+R6
+32
+Z127 !s108 1544354327.387000
+Z128 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/RX.vhd|
+Z129 !s107 C:/Users/valer/Desktop/PROGETTO_UART/quartus/RX/RX.vhd|
+R10
+R11
+!s100 cjL0h``S_=a7PTlm2UIPW2
+!i10b 1
+Abdf_type
+R1
+R2
+DEx4 work 2 rx 0 22 ;Cg_@XPcIWZ9lNX`VM2[z0
+l144
+L36
+V78im<eoGZYQ?2eMfnVo``0
+R6
+32
+R127
+R128
+R129
+R10
+R11
+!s100 2d<FAc00PTg2bKm6SP8Om1
+!i10b 1
+Etb_uart
+Z130 w1544287072
+R13
+R33
+R1
+R2
+R3
+Z131 8C:/Users/valer/Desktop/PROGETTO_UART/quartus/UART/TB_TX_UART.vhd
+Z132 FC:/Users/valer/Desktop/PROGETTO_UART/quartus/UART/TB_TX_UART.vhd
+l0
+L6
+V@F>l^nEMLKid@LPLI8a@o1
+R6
+32
+Z133 !s108 1544354321.774000
+Z134 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/valer/Desktop/PROGETTO_UART/quartus/UART/TB_TX_UART.vhd|
+Z135 !s107 C:/Users/valer/Desktop/PROGETTO_UART/quartus/UART/TB_TX_UART.vhd|
+R10
+R11
+!s100 hBTA<^@;;>JIaSh5WjTD32
+!i10b 1
+Astructural
+R13
+R33
+R1
+R2
+DEx4 work 7 tb_uart 0 22 @F>l^nEMLKid@LPLI8a@o1
+l28
+L10
+V@?3Zlk@RKTRH@80;b6:E90
+R6
+32
+R133
+R134
+R135
+R10
+R11
+!s100 8086CVPG9TIJT8>R=:@Mi2
+!i10b 1
+Etx
+Z136 w1544273244
+R1
+R2
+R3
+Z137 8C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/TX.vhd
+Z138 FC:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/TX.vhd
+l0
+L24
+V6n0Z8B>=mX2Vk?z0bQKzE2
+R6
+32
+Z139 !s108 1544354324.571000
+Z140 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/TX.vhd|
+Z141 !s107 C:/Users/valer/Desktop/PROGETTO_UART/quartus/TX/TX.vhd|
+R10
+R11
+!s100 I[PcCZZHl7Z0JLb0V0kO=0
+!i10b 1
+Abdf_type
+R1
+R2
+DEx4 work 2 tx 0 22 6n0Z8B>=mX2Vk?z0bQKzE2
+l127
+L36
+VdOBhN5;Jc0YSI58Q3oF^c3
+R6
+32
+R139
+R140
+R141
+R10
+R11
+!s100 UG`C@aJ^4[^T;0_iZ1aMh1
+!i10b 1
+Euart
+Z142 w1544287218
+R1
+R2
+R3
+Z143 8C:/Users/valer/Desktop/PROGETTO_UART/quartus/UART/UART.vhd
+Z144 FC:/Users/valer/Desktop/PROGETTO_UART/quartus/UART/UART.vhd
+l0
+L24
+VT=`S]^M]F:IEF`2`W_KAG3
+!s100 Xhg5T4RDUIj=DVC>ZU=3H2
+R6
+32
+!i10b 1
+Z145 !s108 1544354433.661000
+Z146 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/valer/Desktop/PROGETTO_UART/quartus/UART/UART.vhd|
+Z147 !s107 C:/Users/valer/Desktop/PROGETTO_UART/quartus/UART/UART.vhd|
+R10
+R11
+Abdf_type
+R1
+R2
+Z148 DEx4 work 4 uart 0 22 T=`S]^M]F:IEF`2`W_KAG3
+l71
+L40
+Z149 VD14BW<9N5jibN:;8[DD0>3
+Z150 !s100 _=3RNdO?ic24WM12?o8C90
+R6
+32
+!i10b 1
+R145
+R146
+R147
+R10
+R11
