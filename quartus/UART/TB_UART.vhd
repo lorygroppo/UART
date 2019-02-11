@@ -59,7 +59,7 @@ end process;
 --UART reset
 reset_n_tb <= '0', '1' after 80ns;
 
---WR signal
+--WR signal e lettura DIN da file
 process
 	variable v_WR_LINE : line;
 	variable v_DIN_LINE : line;
@@ -89,18 +89,24 @@ begin
 end process;
 
 --RD signal
+--process
+--begin
+--	rd_tb<='0';
+--	if tx_rdy_tb'event and tx_rdy_tb='1' then
+--		rd_tb<='1';
+--		wait for 40ns;
+--	end if;
+--end process;
+
+--Scrivo DOUT su di un file quando è asserito DAV
 file_open(file_dout,"dout.txt",write_mode);
-process
+process (dav_tb)
 	variable v_DOUT	: line;
-	variable msg	: line;
 begin
-	write(msg,"event");
-	wait until dav_tb'event;
-	writeline(file_dout, msg);
-		if dav_tb='1' then
-			write(v_DOUT, d_out_tb, right, 8);
-		    writeline(file_dout, v_DOUT);
-		end if;
+	if dav_tb'event and dav_tb='1' then
+		write(v_DOUT, d_out_tb, right, 8);
+	    writeline(file_dout, v_DOUT);
+	end if;
 end process;
 file_close(file_dout);
 

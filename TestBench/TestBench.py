@@ -22,7 +22,7 @@ try:
     subprocess.run(("vsim -c -do load_tb.do").split())
     subprocess.run(("vsim -c -do run_tb.do").split())
     print("\n\n\n\n")
-    #subprocess.run(('vsim -do waveform.do').split())
+    subprocess.run(('vsim -do waveform.do').split())
 except:
     exit("ERRORE")
 else:
