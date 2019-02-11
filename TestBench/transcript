@@ -1,10 +1,8 @@
 # do waveform.do 
 # vsim.wlf opened as dataset "vsim"
-# ** Error: Active logfile is not in simulation mode
-# Error in macro ./waveform.do line 2
-# Active logfile is not in simulation mode
-#     while executing
-# "add wave *"
+# ascii
+# ascii
+# .main_pane.wave.interior.cs.body.pw.wf
+# 0 ps
+# 525 us
 #  
-# 
-# <EOF> 
