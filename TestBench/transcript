@@ -1,8 +1,22 @@
-# do waveform.do 
-# vsim.wlf opened as dataset "vsim"
-# ascii
-# ascii
-# .main_pane.wave.interior.cs.body.pw.wf
-# 0 ps
-# 525 us
+# do load_tb.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package std_logic_textio
+# -- Compiling entity TB_UART
+# -- Compiling architecture structural of TB_UART
+# ** Warning: [4] ../quartus/UART/TB_UART.vhd(54): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] ../quartus/UART/TB_UART.vhd(56): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] ../quartus/UART/TB_UART.vhd(60): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: ../quartus/UART/TB_UART.vhd(97): Subprogram "WRITE" is ambiguous. Suitable definitions exist in packages "TEXTIO" and "std_logic_textio".
+# ** Error: ../quartus/UART/TB_UART.vhd(107): VHDL Compiler exiting
+# ** Error: c:/altera/11.1sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./load_tb.do line 2
+# c:/altera/11.1sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom ../quartus/UART/TB_UART.vhd"
 #  

@@ -20,11 +20,13 @@ COMPONENT UART IS
 		    TX_UART :  OUT  STD_LOGIC;
 		    TXRDY :  OUT  STD_LOGIC;
 		    DAV :  OUT  STD_LOGIC;
+		    campionamento :  OUT  STD_LOGIC;
 		    DOUT :  OUT  STD_LOGIC_VECTOR(7 DOWNTO 0);
 	      	RESETn : IN STD_LOGIC);
 END COMPONENT;
 
 signal clk_tb, wr_tb, tx_rdy_tb, tx_tb, rd_tb, rx_tb, reset_n_tb, dav_tb: std_logic;
+signal sample: std_logic;
 signal d_in_tb, d_out_tb : std_logic_vector ( 7 downto 0) := (others =>'0');
 
 file file_din: text;
@@ -41,6 +43,7 @@ U1: UART port map(  CK => clk_tb,
                     RD => rd_tb,
                     DAV => dav_tb,
                     DOUT => d_out_tb,
+                    campionamento => sample,
                     RESETn => reset_n_tb);
 
 rx_tb<=tx_tb;
@@ -68,7 +71,7 @@ begin
 	readline(file_din, v_WR_LINE);
 	read(v_WR_LINE, v_WR_INT);
 	wr_tb<='0';
-    wait for 110 ns;
+    wait for 10020 ns;
 	for i in 1 to v_WR_INT loop
 	    wr_tb<='1';
 	    --leggo prossimo byte da trasmettere
@@ -81,30 +84,24 @@ begin
 	    wait until tx_rdy_tb'event and tx_rdy_tb='1';
 	    wait for 20 ns;
     end loop;
-	file_close(file_wr);    
+	file_close(file_din);    
 	wait;
 end process;
 
---DIN signal
---d_in_tb <= "01100110", "10101010" after 8802 ns, "01010101" after 100000ns;
-
---RX signal
-
---rx_tb <= '1', '0' after 10000 ns, '1' after 88125 ns, 
---        '0' after 140000 ns, 
---      '1' after 280000 ns, '0' after 301000 ns, '1' after 309681 ns;
-
+--RD signal
+file_open(file_dout,"dout.txt",write_mode);
 process
+	variable v_DOUT	: line;
+	variable msg	: line;
 begin
-	rd_tb <= '0';
-	wait for 110 ns;
-	for i in 0 to 10 loop
-		rd_tb <= '1';
-		wait for 20ns;
-		rd_tb<='0';
-		wait for 8661ns;
-	end loop;
-	wait;
+	write(msg,"event");
+	wait until dav_tb'event;
+	writeline(file_dout, msg);
+		if dav_tb='1' then
+			write(v_DOUT, d_out_tb, right, 8);
+		    writeline(file_dout, v_DOUT);
+		end if;
 end process;
+file_close(file_dout);
 
 end structural;

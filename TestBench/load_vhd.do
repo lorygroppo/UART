@@ -15,9 +15,11 @@ vcom ../quartus/RX/lpm_counter_RX_MOD_32.vhd
 vcom ../quartus/RX/AND_clk_div.vhd
 vcom ../quartus/RX/FSM_RX.vhd
 vcom ../quartus/RX/lpm_shiftreg_RX_LEFT_EDGE.vhd
+vcom ../quartus/RX/lpm_shiftreg_RX_RIGHT_9.vhd
 vcom ../quartus/RX/lpm_shiftreg_RX_RIGHT_8_BIT.vhd
 vcom ../quartus/RX/Decisore.vhd
 vcom ../quartus/RX/AND_Decisore.vhd
+vcom ../quartus/RX/AND_Edge_Detector.vhd
 vcom ../quartus/RX/AND_NUM_BIT.vhd
 vcom ../quartus/RX/RX.vhd
 
