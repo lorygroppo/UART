@@ -4,3 +4,4 @@ radix signal /tb_uart/d_in_tb -ascii
 radix signal /tb_uart/d_out_tb -ascii
 view wave
 wave zoom full
+configure wave -timelineunits us

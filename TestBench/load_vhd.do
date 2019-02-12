@@ -24,5 +24,6 @@ vcom ../quartus/RX/AND_NUM_BIT.vhd
 vcom ../quartus/RX/RX.vhd
 
 vcom ../quartus/UART/UART.vhd
+vcom ../quartus/UART/TB_UART.vhd
 
 quit -f

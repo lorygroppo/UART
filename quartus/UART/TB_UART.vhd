@@ -26,8 +26,8 @@ COMPONENT UART IS
 END COMPONENT;
 
 signal clk_tb, wr_tb, tx_rdy_tb, tx_tb, rd_tb, rx_tb, reset_n_tb, dav_tb: std_logic;
-signal sample: std_logic;
 signal d_in_tb, d_out_tb : std_logic_vector ( 7 downto 0) := (others =>'0');
+signal sample: std_logic;
 
 file file_din: text;
 file file_dout: text;
@@ -43,7 +43,7 @@ U1: UART port map(  CK => clk_tb,
                     RD => rd_tb,
                     DAV => dav_tb,
                     DOUT => d_out_tb,
-                    campionamento => sample,
+                    campionamento=>sample,
                     RESETn => reset_n_tb);
 
 rx_tb<=tx_tb;
@@ -89,14 +89,13 @@ begin
 end process;
 
 --RD signal
---process
---begin
---	rd_tb<='0';
---	if tx_rdy_tb'event and tx_rdy_tb='1' then
---		rd_tb<='1';
---		wait for 40ns;
---	end if;
---end process;
+process
+begin
+	rd_tb<='0';
+	wait until dav_tb'event and dav_tb='1';
+	rd_tb<='1';
+	wait for 40ns;
+end process;
 
 --Scrivo DOUT su di un file quando è asserito DAV
 file_open(file_dout,"dout.txt",write_mode);
