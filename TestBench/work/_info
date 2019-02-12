@@ -17,7 +17,7 @@ L6
 VMB[Bf4mQid?ebcAdeDHM[3
 Z9 OV;C;10.0c;49
 32
-Z10 !s108 1549930278.042000
+Z10 !s108 1549973095.484000
 Z11 !s90 ../quartus/RX/AND_clk_div.vhd|
 Z12 !s107 ../quartus/RX/AND_clk_div.vhd|
 o-O0
@@ -54,7 +54,7 @@ L6
 VlU9^L<5Qi26?79bJlT4Cl2
 R9
 32
-Z16 !s108 1549930278.527000
+Z16 !s108 1549973095.921000
 Z17 !s90 ../quartus/RX/AND_Decisore.vhd|
 Z18 !s107 ../quartus/RX/AND_Decisore.vhd|
 o-O0
@@ -91,7 +91,7 @@ L6
 VD<Ke8CiQ`[dU[3ZVg6OID2
 R9
 32
-Z22 !s108 1549930278.608000
+Z22 !s108 1549973096.000000
 Z23 !s90 ../quartus/RX/AND_Edge_Detector.vhd|
 Z24 !s107 ../quartus/RX/AND_Edge_Detector.vhd|
 o-O0
@@ -128,7 +128,7 @@ L5
 V>el0;Tz`ME70<V_XIm[K]1
 R9
 32
-Z28 !s108 1549930277.602000
+Z28 !s108 1549973095.124000
 Z29 !s90 ../quartus/TX/and_gate_4.vhd|
 Z30 !s107 ../quartus/TX/and_gate_4.vhd|
 o-O0
@@ -165,7 +165,7 @@ L5
 VEzWa4KOc9SCI4@FnFRb4=1
 R9
 32
-Z33 !s108 1549930277.682000
+Z33 !s108 1549973095.202000
 Z34 !s90 ../quartus/TX/and_gate_8.vhd|
 Z35 !s107 ../quartus/TX/and_gate_8.vhd|
 o-O0
@@ -202,7 +202,7 @@ L6
 VA]7<MYQ<9MG[OFB`Rm]Na3
 R9
 32
-Z38 !s108 1549930278.688000
+Z38 !s108 1549973096.093000
 Z39 !s90 ../quartus/RX/AND_NUM_BIT.vhd|
 Z40 !s107 ../quartus/RX/AND_NUM_BIT.vhd|
 o-O0
@@ -239,7 +239,7 @@ L6
 V@`[@K_Uf<=[^R@;ZoDAkl2
 R9
 32
-Z43 !s108 1549930278.448000
+Z43 !s108 1549973095.859000
 Z44 !s90 ../quartus/RX/Decisore.vhd|
 Z45 !s107 ../quartus/RX/Decisore.vhd|
 o-O0
@@ -276,7 +276,7 @@ L5
 VMFm0k75E_l<2Fm0MoX8_P0
 R9
 32
-Z48 !s108 1549930278.150000
+Z48 !s108 1549973095.562000
 Z49 !s90 ../quartus/RX/FSM_RX.vhd|
 Z50 !s107 ../quartus/RX/FSM_RX.vhd|
 o-O0
@@ -313,7 +313,7 @@ L5
 V5IY9@ZeiR:JDCG<:cP@W=3
 R9
 32
-Z53 !s108 1549930277.374000
+Z53 !s108 1549973094.906000
 Z54 !s90 ../quartus/TX/FSM_TX.vhd|
 Z55 !s107 ../quartus/TX/FSM_TX.vhd|
 o-O0
@@ -348,7 +348,7 @@ L42
 VnoomSP_5QHNR`[Ghn`V^R3
 R9
 32
-Z58 !s108 1549930277.869000
+Z58 !s108 1549973095.343000
 Z59 !s90 ../quartus/RX/lpm_counter_RX_MOD_16.vhd|
 Z60 !s107 ../quartus/RX/lpm_counter_RX_MOD_16.vhd|
 o-O0
@@ -381,7 +381,7 @@ L42
 VkJLo`l5^E03L2ec52Thd42
 R9
 32
-Z63 !s108 1549930277.967000
+Z63 !s108 1549973095.423000
 Z64 !s90 ../quartus/RX/lpm_counter_RX_MOD_32.vhd|
 Z65 !s107 ../quartus/RX/lpm_counter_RX_MOD_32.vhd|
 o-O0
@@ -414,7 +414,7 @@ L42
 VGel[Y_92lE>WRcfCWAF6m2
 R9
 32
-Z68 !s108 1549930277.449000
+Z68 !s108 1549973094.969000
 Z69 !s90 ../quartus/TX/lpm_counter_TX.vhd|
 Z70 !s107 ../quartus/TX/lpm_counter_TX.vhd|
 o-O0
@@ -447,7 +447,7 @@ L42
 V[SKe@5if_fo=A@;^Cfl632
 R9
 32
-Z73 !s108 1549930277.525000
+Z73 !s108 1549973095.047000
 Z74 !s90 ../quartus/TX/lpm_counter_TX_MOD_10.vhd|
 Z75 !s107 ../quartus/TX/lpm_counter_TX_MOD_10.vhd|
 o-O0
@@ -481,7 +481,7 @@ L30
 V>z9Dz;DZiN<KE1MFDCPzQ0
 R9
 32
-Z79 !s108 1549930277.126000
+Z79 !s108 1549973094.687000
 Z80 !s90 ../quartus/TX/lpm_ff_0.vhd|
 Z81 !s107 ../quartus/TX/lpm_ff_0.vhd|
 o-O0
@@ -516,7 +516,7 @@ L42
 VaoSIGO9^gh`0nMhNERbLo1
 R9
 32
-Z84 !s108 1549930277.295000
+Z84 !s108 1549973094.828000
 Z85 !s90 ../quartus/TX/lpm_mux0.vhd|
 Z86 !s107 ../quartus/TX/lpm_mux0.vhd|
 o-O0
@@ -550,7 +550,7 @@ L42
 VhR6dYINgbOJg`?CE_Gb@61
 R9
 32
-Z89 !s108 1549930277.221000
+Z89 !s108 1549973094.766000
 Z90 !s90 ../quartus/TX/lpm_shiftreg0.vhd|
 Z91 !s107 ../quartus/TX/lpm_shiftreg0.vhd|
 o-O0
@@ -583,7 +583,7 @@ L42
 VUTZ<<hBV1Z`o;@85g_0G42
 R9
 32
-Z94 !s108 1549930278.223000
+Z94 !s108 1549973095.640000
 Z95 !s90 ../quartus/RX/lpm_shiftreg_RX_LEFT_EDGE.vhd|
 Z96 !s107 ../quartus/RX/lpm_shiftreg_RX_LEFT_EDGE.vhd|
 o-O0
@@ -616,7 +616,7 @@ L42
 V8fUHlZ4WL<XAP1Hb_;3[01
 R9
 32
-Z99 !s108 1549930278.372000
+Z99 !s108 1549973095.781000
 Z100 !s90 ../quartus/RX/lpm_shiftreg_RX_RIGHT_8_BIT.vhd|
 Z101 !s107 ../quartus/RX/lpm_shiftreg_RX_RIGHT_8_BIT.vhd|
 o-O0
@@ -649,7 +649,7 @@ L42
 VFag56cja:g9=eF2SS^L8L2
 R9
 32
-Z104 !s108 1549930278.297000
+Z104 !s108 1549973095.703000
 Z105 !s90 ../quartus/RX/lpm_shiftreg_RX_RIGHT_9.vhd|
 Z106 !s107 ../quartus/RX/lpm_shiftreg_RX_RIGHT_9.vhd|
 o-O0
@@ -682,7 +682,7 @@ L24
 V2<OMKXezPhlWlXmG][84z2
 R9
 32
-Z109 !s108 1549930278.766000
+Z109 !s108 1549973096.172000
 Z110 !s90 ../quartus/RX/RX.vhd|
 Z111 !s107 ../quartus/RX/RX.vhd|
 o-O0
@@ -719,7 +719,7 @@ VL?f766jJX>D_?:IHW>mLF0
 !s100 NKSDo_I76m60KcNEAD>5E0
 R9
 32
-Z116 !s108 1549930278.913000
+Z116 !s108 1549973096.328000
 Z117 !s90 ../quartus/UART/TB_UART.vhd|
 Z118 !s107 ../quartus/UART/TB_UART.vhd|
 o-O0
@@ -754,7 +754,7 @@ L24
 V<TYDE7J9Rc=FBPTLiQjMX2
 R9
 32
-Z124 !s108 1549930277.763000
+Z124 !s108 1549973095.264000
 Z125 !s90 ../quartus/TX/TX.vhd|
 Z126 !s107 ../quartus/TX/TX.vhd|
 o-O0
@@ -787,7 +787,7 @@ L24
 VoDczRhnP40m0kZ7Nh^2Td0
 R9
 32
-Z130 !s108 1549930278.841000
+Z130 !s108 1549973096.250000
 Z131 !s90 ../quartus/UART/UART.vhd|
 Z132 !s107 ../quartus/UART/UART.vhd|
 o-O0
