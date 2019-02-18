@@ -89,44 +89,64 @@ else:
     mainframe.grid(column=0, row=0, sticky=(N,W,E,S))
     # stringa da inviare
     stringa_input=StringVar()
-    ttk.Entry(mainframe, textvariable=stringa_input, width=75).grid(row=0, sticky=(W, E), column=0, columnspan=3)
+    ttk.Entry(mainframe, textvariable=stringa_input, width=75)\
+    .grid(row=0, sticky=(W, E), column=0, columnspan=3)
     # Pulsante Send
-    ttk.Button(mainframe, text="SEND", command=run_sim, width=25).grid(column=3, row=0, sticky=(W, E))
+    ttk.Button(mainframe, text="SEND", command=run_sim, width=25)\
+    .grid(column=3, row=0, sticky=(W, E))
     root.bind("<Return>", run_sim)
     # Etichetta stringa inviata
-    ttk.Label(mainframe,text="INVIATA:", anchor="e", width=25).grid(column=0,row=1, sticky=(W, E))
+    ttk.Label(mainframe,text="INVIATA:", anchor="e", width=25)\
+    .grid(column=0,row=1, sticky=(W, E))
     # stringa inviata
     stringa_tx=StringVar()
-    ttk.Label(mainframe, textvariable=stringa_tx, anchor="w", width=75, font="helvetica 11 bold").grid(row=1, sticky=(W, E), column=1, columnspan=3)
+    ttk.Label(mainframe, textvariable=stringa_tx, anchor="w", width=75,
+              font="helvetica 11 bold")\
+    .grid(row=1, sticky=(W, E), column=1, columnspan=3)
     # Etichetta stringa ricevuta
-    ttk.Label(mainframe,text="RICEVUTA:", anchor="e", width=25).grid(column=0,row=2, sticky=(W, E))
+    ttk.Label(mainframe,text="RICEVUTA:", anchor="e", width=25)\
+    .grid(column=0,row=2, sticky=(W, E))
     # stringa ricevuta
     stringa_rx=StringVar()
-    ttk.Label(mainframe, textvariable=stringa_rx, anchor="w", width=75, font="helvetica 11 bold").grid(row=2, sticky=(W, E), column=1, columnspan=3)
+    ttk.Label(mainframe, textvariable=stringa_rx, anchor="w", width=75,
+              font="helvetica 11 bold")\
+    .grid(row=2, sticky=(W, E), column=1, columnspan=3)
     # Pulsante Wave
-    ttk.Button(mainframe, text="Visualizza Wave", command=view_wave).grid(column=3, row=5, sticky=(W, E))
+    ttk.Button(mainframe, text="Visualizza Wave", command=view_wave)\
+    .grid(column=3, row=5, sticky=(W, E))
     # Pulsante Exit
-    ttk.Button(mainframe, text="EXIT", command=exit_function).grid(column=3, row=6, sticky=(W, E))
+    ttk.Button(mainframe, text="EXIT", command=exit_function)\
+    .grid(column=3, row=6, sticky=(W, E))
     root.bind("<Escape>", exit_function)
     # Etichetta bytes inviati
-    ttk.Label(mainframe,text="Bytes inviati", anchor="center").grid(column=0, columnspan=2, row=3, sticky=(W, E))
+    ttk.Label(mainframe,text="Bytes inviati", anchor="center")\
+    .grid(column=0, columnspan=2, row=3, sticky=(W, E))
     # Indicatore bytes inviati
     bytes_tx=StringVar()
-    ttk.Label(mainframe, textvariable=bytes_tx, anchor="center", font="helvetica 11 bold").grid(column=0, columnspan=2, row=4, sticky=(W, E))
+    ttk.Label(mainframe, textvariable=bytes_tx, anchor="center",
+               font="helvetica 11 bold")\
+    .grid(column=0, columnspan=2, row=4, sticky=(W, E))
     # Etichetta bytes ricevuti
-    ttk.Label(mainframe,text="Bytes inviati", anchor="center").grid(column=2, columnspan=2, row=3, sticky=(W, E))
+    ttk.Label(mainframe,text="Bytes inviati", anchor="center")\
+    .grid(column=2, columnspan=2, row=3, sticky=(W, E))
     # Indicatore bytes ricevuti
     bytes_rx=StringVar()
-    ttk.Label(mainframe, textvariable=bytes_rx, anchor="center", font="helvetica 11 bold").grid(column=2, columnspan=2, row=4, sticky=(W, E))
+    ttk.Label(mainframe, textvariable=bytes_rx, anchor="center",
+              font="helvetica 11 bold")\
+    .grid(column=2, columnspan=2, row=4, sticky=(W, E))
     # esito testbench
     esito=StringVar()
     esito.set("")
-    ttk.Label(mainframe, textvariable=esito, anchor="center", font="helvetica 20").grid(column=0, columnspan=2, row=5, rowspan=2, sticky=(W, E))
+    ttk.Label(mainframe, textvariable=esito, anchor="center",
+              font="helvetica 20")\
+    .grid(column=0, columnspan=2, row=5, rowspan=2, sticky=(W, E))
 
-    #faccio in modo che la GUI si adatti dinamicamente con la dimensione della finestra
+    # faccio in modo che la GUI si adatti dinamicamente
+    # alla dimensione della finestra
     root.columnconfigure(0,weight=4)
     root.rowconfigure(0, weight=4)
     for j in range(4): mainframe.columnconfigure(j,weight=1)
     for j in range(6): mainframe.rowconfigure(j, weight=1)
-    for child in mainframe.winfo_children(): child.grid_configure(padx=3, pady=3)
+    for child in mainframe.winfo_children():
+        child.grid_configure(padx=3, pady=3)
     root.mainloop()

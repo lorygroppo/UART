@@ -12,7 +12,7 @@ END TB_UART;
 ARCHITECTURE structural OF TB_UART IS
 
 COMPONENT UART IS 
-	PORT( 	WR :  IN  STD_LOGIC;
+	PORT(	WR :  IN  STD_LOGIC;
 		    CK :  IN  STD_LOGIC;
 		    RX_UART :  IN  STD_LOGIC;
 		    RD :  IN  STD_LOGIC;
@@ -20,14 +20,14 @@ COMPONENT UART IS
 		    TX_UART :  OUT  STD_LOGIC;
 		    TXRDY :  OUT  STD_LOGIC;
 		    DAV :  OUT  STD_LOGIC;
-		    campionamento :  OUT  STD_LOGIC;
 		    DOUT :  OUT  STD_LOGIC_VECTOR(7 DOWNTO 0);
 	      	RESETn : IN STD_LOGIC);
 END COMPONENT;
 
-signal clk_tb, wr_tb, tx_rdy_tb, tx_tb, rd_tb, rx_tb, reset_n_tb, dav_tb: std_logic;
-signal d_in_tb, d_out_tb : std_logic_vector ( 7 downto 0) := (others =>'0');
-signal sample: std_logic;
+signal clk_tb, wr_tb, tx_rdy_tb, tx_tb : std_logic;
+signal rd_tb, rx_tb, reset_n_tb, dav_tb : std_logic;
+signal d_in_tb : std_logic_vector ( 7 downto 0) := (others =>'0');
+signal d_out_tb : std_logic_vector ( 7 downto 0) := (others =>'0');
 
 file file_din: text;
 file file_dout: text;
@@ -43,7 +43,6 @@ U1: UART port map(  CK => clk_tb,
                     RD => rd_tb,
                     DAV => dav_tb,
                     DOUT => d_out_tb,
-                    campionamento=>sample,
                     RESETn => reset_n_tb);
 
 rx_tb<=tx_tb;
@@ -97,7 +96,7 @@ begin
 	wait for 40ns;
 end process;
 
---Scrivo DOUT su di un file quando è asserito DAV
+--Scrivo DOUT su di un file quando e' asserito DAV
 file_open(file_dout,"dout.txt",write_mode);
 process (dav_tb)
 	variable v_DOUT	: line;
